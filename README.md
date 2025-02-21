@@ -1,4 +1,4 @@
-# Easy Chat 🤖
+# AI Chat CLI 🤖
 
 A simple and modular CLI-based AI chat application with multiple sessions, persistent history, and configurable model management.
 
