@@ -1,0 +1,9 @@
+models:
+  - name: "google/gemini-2.0-flash-lite-preview-02-05:free"
+    description: "Gemini Flash Light"
+  - name: "google/gemini-2.0-flash-thinking-exp:free"
+    description: "Gemini 2.0 Flash Thinking"
+  - name: "google/gemini-2.0-pro-02-05:free"
+    description: "Gemini 2.0 Pro"
+  - name: "deepseek/deepseek-r1:free"
+    description: "DeepSeek R1"
