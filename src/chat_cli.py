@@ -1,5 +1,6 @@
 import os
-import readline
+
+# import readline
 import atexit
 import yaml
 from datetime import datetime
@@ -28,8 +29,9 @@ class ChatCLI:
 
     def load_history(self):
         if os.path.exists(self.history_file):
-            readline.read_history_file(self.history_file)
-        atexit.register(readline.write_history_file, self.history_file)
+            pass
+        #     readline.read_history_file(self.history_file)
+        # atexit.register(readline.write_history_file, self.history_file)
 
     def load_models_from_yaml(self, models_file: str):
         if os.path.exists(models_file):
@@ -40,7 +42,7 @@ class ChatCLI:
 
     def display_welcome(self):
         welcome_text = """
-# Easy Chat CLI
+# AI Chat CLI
 
 Available commands:
 - /exit - Exit the application
